@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
 body{
   background: #EEEEEE;
+  text-decoration: none;
 }
 
 *{
@@ -22,9 +23,9 @@ li {
   list-style: none;
   text-decoration: none;
   font-family: Lato;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 20px;
-  margin-right: 50px;
+  margin-right: 40px;
   padding-left: 5px;
   display: inline-block;
   justify-content: space-between;
@@ -35,7 +36,7 @@ li {
 .nav-logo{
   font-family: "Playfair Display";
   text-decoration: none;
-  font-size: xx-large;
+  font-size: x-large;
   margin-right: 500px;
 }
 
@@ -47,9 +48,9 @@ li {
  
 }
 
-header{
+.navbar{
   display: flex;
- 
+ align-items: center;
   
 }
 
@@ -77,6 +78,29 @@ section{
    font-weight:bolder;
    font-size: medium;
  }
+ .container2{
+   display: flex;
+   text-align: start;
+   margin-bottom: 50px;
+ }
+ .container3{
+   display: flex;
+   text-align: start;
+   margin-bottom: 50px;
+ }
 
+ .container4{
+   display: flex;
+   text-align: start;
+  
+   
+ }
+img{
+
+}
+
+.premium,.fast,.quality{
+  margin-right: 20px;
+}
 
 /*# sourceMappingURL=main.css.map */
